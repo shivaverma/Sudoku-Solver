@@ -12,7 +12,7 @@ def get_data(file):
     feat = []
     label = []
 
-    for i in feat_raw[:10]:
+    for i in feat_raw:
     
         x = np.array([int(j) for j in i]).reshape((9,9,1))
         feat.append(x)
@@ -21,7 +21,7 @@ def get_data(file):
     feat = feat/9
     feat -= .5    
     
-    for i in label_raw[:10]:
+    for i in label_raw:
     
         x = np.array([int(j) for j in i]).reshape((81,1)) - 1
         label.append(x)   
