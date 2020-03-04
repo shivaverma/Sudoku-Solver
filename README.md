@@ -7,7 +7,7 @@ This software solve the sudoku puzzle using convolutions neural network.
 
 **Library**: Keras 2.2.4, Numpy 1.16.3, Pandas 0.24.3
 
-### This project contains following files:
+This project contains following files:
 
 
 | File      | Description |
