@@ -1,11 +1,11 @@
 ## Sudoku-Solver
-version 1.0.0
+version 1.0.1
 
 This software solve the sudoku puzzle using convolutions neural network.
 
 **Language**: Python 3.6
 
-**Library**: Keras 2.2.4, Numpy 1.16.3, Pandas 0.24.3
+**Library**: Keras 2.3.1, Numpy 1.16.3, Pandas 0.24.3
 
 ---
 
@@ -15,15 +15,15 @@ This project contains following files:
 | File      | Description |
 | :-----------: | :-----------: |
 | **sudoku.ipynb** | jupyter notebook for running and testing the code |
-| **model.py**   | neural network implementation        |
-| **data_preprocess.py**      | prepare training and testing data      |
-| **sudoku.model** | saved model |
+| **model.py**   | neural network implementation |
+| **scripts**      | contains data pre-processing script |
+| **model** | contain saved model |
 
 ---
 
 To run this project, you can run `sudoku.ipynb` notebook. Following is a snippet showing network solving the sudoku.
 
-<img src=result.png width="230">
+<img src=result/result.png width="230">
 
 ---
 
