@@ -2,7 +2,7 @@ import keras
 from keras.layers import Activation
 from keras.layers import Conv2D, BatchNormalization, Dense, Flatten, Reshape
 
-def train_model(x_train, y_train, batch_size=64, ep=2, save_model=False):
+def get_model():
 
     model = keras.models.Sequential()
 
@@ -17,10 +17,5 @@ def train_model(x_train, y_train, batch_size=64, ep=2, save_model=False):
     model.add(Reshape((-1, 9)))
     model.add(Activation('softmax'))
     
-    adam = keras.optimizers.adam(lr=.001)
-    model.compile(loss='sparse_categorical_crossentropy', optimizer=adam)
-
-    print(model.fit(x_train, y_train, batch_size=batch_size, epochs=ep))
-
-    if save_model: 
-        model.save('model/sudoku.model')
+    return model
+ 

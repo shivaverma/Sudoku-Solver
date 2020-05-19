@@ -1,5 +1,5 @@
 ## Sudoku-Solver
-version 1.1.0
+version 1.1.1
 
 This software solve the sudoku puzzle using convolutions neural network.
 
