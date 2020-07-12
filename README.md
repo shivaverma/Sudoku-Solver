@@ -1,11 +1,13 @@
 ## Sudoku-Solver
-version 1.1.1
+version 1.1.2
 
 This software solve the sudoku puzzle using convolutions neural network.
 
-**Language**: Python 3.6
+### Requirements
 
-**Library**: Keras 2.3.1, Numpy 1.16.3, Pandas 0.24.3
+- **`python`** - `3.7`
+- **`keras`** -  `2.4.3`
+- **`tensorflow`** -  `2.2.0`
 
 ---
 
