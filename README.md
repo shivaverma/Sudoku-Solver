@@ -16,14 +16,15 @@ This project contains following files:
 
 | File      | Description |
 | :-----------: | :-----------: |
-| **sudoku.ipynb** | jupyter notebook for running and testing the code |
+| **sudoku.ipynb** | notebook for running and testing the project |
 | **model.py**   | neural network implementation |
 | **scripts**      | contains data pre-processing script |
 | **model** | contain saved model |
 
 ---
 
-To run this project, you can run `sudoku.ipynb` notebook. Following is a snippet showing network solving the sudoku.
+Following is a snippet showing network solving the sudoku.
+Network is able to solve the puzzles with 99% accuracy.
 
 <img src=result/result.png width="230">
 
