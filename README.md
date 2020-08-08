@@ -11,7 +11,7 @@ This software solve the sudoku puzzle using convolutions neural network.
 
 ---
 
-This project contains following files:
+### Project Content
 
 
 | File      | Description |
@@ -22,13 +22,16 @@ This project contains following files:
 | **model** | contain saved model |
 
 ---
+### Performance
 
 Following is a snippet showing network solving the sudoku.
-Network is able to solve the puzzles with 99% accuracy.
+Network was able to solve the puzzles with 99% accuracy.
 
 <img src=result/result.png width="230">
 
 ---
+### References
 
-For detailed description of this project plese refer [this](https://towardsdatascience.com/solving-sudoku-with-convolution-neural-network-keras-655ba4be3b11) blog:
+- Download the [**dataset**](https://www.kaggle.com/bryanpark/sudoku) for this project.
+- Read this [**blog**](https://towardsdatascience.com/solving-sudoku-with-convolution-neural-network-keras-655ba4be3b11) to get all detail of this project.
 
